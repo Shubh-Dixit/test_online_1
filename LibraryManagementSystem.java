@@ -110,8 +110,8 @@ public class LibraryManagementSystem {
         Library lib = new Library();
 
         lib.addBook(new Book(1, "Java Basics", "James Gosling"));
-        lib.addBook(new Book(2, "DSA", "Mark Allen"));
-        lib.addBook(new Book(3, "OOP Concepts", "Bjarne Stroustrup"));
+        lib.addBook(new Book(2, "DSA", "Shubh"));
+        lib.addBook(new Book(3, "OOP Concepts", "Raj"));
 
         System.out.println("All Books:");
         lib.displayBooks();
